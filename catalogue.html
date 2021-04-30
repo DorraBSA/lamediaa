@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/messstyles.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Catlogue</title>
+</head>
+<header>
+    <div class="entoureImg">
+        <img alt="logo" src="images/livre.png"  align="center" width ="70%"/>
+    </div>
+    <h1>Bienvenue sur le Portail documentaire</h1>
+    <hr/>
+</header>
+<nav>
+   <a href="accueil.html">Accueil</a>
+   <a href="catalogue.html">Catalogue</a>
+   <a href="login.html">Mon compte</a>
+   <a href="horaires.html">Horaires</a> 
+</nav>
+<section>
+    <h2>Notre catalogue</h2>
+    <div id="formulaire">
+        <form action="Catalogue.html" method="post">
+            <h3>Choisir votre type de support: </h3>
+            <fieldset>
+                <legend align="top">Livres</legend><br>
+                <select name="txLivres">
+                    <option>Adulte</option>
+                    <option>Adolescent</option>
+                    <option>Jeunesse</option>
+                </select>
+            </fieldset>
+            <fieldset>
+        <legend align="top">Revues</legend><br> 
+        <input list="revues" name="LiRevues" id="LiRevues">  <datalist id="revues"> 
+                    <option>Journalière</option>
+                    <option>Hebdomadaire</option> 
+                    <option>Mensuelle</option>
+                </datalist> 
+            </fieldset> 
+        <fieldset> 
+                <legend align="top">Numériques</legend><br> 
+            <input type="radio" name="rdNumerique" value="CD" id="rdNumCD"> 
+            <label for="rdNumerique-CD" >CD</label> 
+            <input type="radio" name="rdNumerique" value="DVD" id="rdNumDVD"> 
+            <label for="rdNumerique-DVD">DVD</label> 
+            </fieldset>
+            <br/> 
+                      <input type="submit" value="Soumettre" class="bouton"/>
+                       
+                    </form> 
+              </div>
+          </section> 
+          <footer id="fondPestin"> 
+            <hr /> 
+            <p>La Bibliothèque nationale de Tunisie 😃</p>
+            <span class="mailto"> <a href=mailto:Ghaith. ghaithabdelwahed@live.fr >Nous écrire</a> 
+            </span></p>  
+          </footer> 
+           
+            
+</body>
+</html> 
